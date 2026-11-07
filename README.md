@@ -27,6 +27,7 @@ The aim is to build a clear, step-by-step record of my progress, from Python fun
 |:-:|---|---|---|---|
 | 1 | [Smart Canteen Discount System](./python-conditionals-smart-canteen) | Conditional statements | `if` / `elif` / `else`, comparison operators, percentages, f-strings | `python smart_canteen_discount.py` |
 | 2 | [Smart Electricity Bill Calculator](./python-loops-electricity-bill-calculator) | Loops | `for` loops, `range()`, accumulators, `continue`, tiered billing | `python smart_electricity_bill.py` |
+| 3 | [Functions, Strings & Lists Assessment](./python-functions-lists-assessment) | Functions, strings, lists | `def` / `return`, `.strip()` / `.title()` / `.isdigit()`, `append()`, `sum()`, `max()`, `min()`, `sorted()` | `python result_card_generator.py`<br>`python class_marks_analyzer.py` |
 
 ### 1. Smart Canteen Discount System
 A college canteen gives a discount based on the size of the bill (0%, 5%, 10% or 20%). The program chooses the right tier with an `if` / `elif` / `else` chain, then prints a bill summary showing the discount and the final amount to pay.
@@ -38,6 +39,11 @@ An electricity company works out monthly bills for several households using prog
 
 ➡️ [View project](./python-loops-electricity-bill-calculator)
 
+### 3. Functions, Strings & Lists Assessment
+This assessment has two programs. The **Student Result Card Generator** validates a student's details, works out the percentage and grade, and fails a student who scores below 40 in any subject. The **Class Marks Analyzer** stores a whole class in two lists and reports the average, the top and bottom students (ties included), pass/fail counts, the students above the average, and a ranked list.
+
+➡️ [View project](./python-functions-lists-assessment)
+
 ---
 
 ## 🗂 Repository Structure
@@ -48,9 +54,13 @@ python-pro-pseb/
 ├── python-conditionals-smart-canteen/
 │   ├── README.md
 │   └── smart_canteen_discount.py
-└── python-loops-electricity-bill-calculator/
+├── python-loops-electricity-bill-calculator/
+│   ├── README.md
+│   └── smart_electricity_bill.py
+└── python-functions-lists-assessment/
     ├── README.md
-    └── smart_electricity_bill.py
+    ├── result_card_generator.py
+    └── class_marks_analyzer.py
 ```
 
 ---
@@ -80,7 +90,7 @@ python smart_electricity_bill.py
 | 1 | Python fundamentals: variables, input/output, operators | ✅ |
 | 2 | Conditional statements | ✅ |
 | 3 | Loops | ✅ |
-| 4 | Functions, lists, dictionaries and other data structures | ⏳ |
+| 4 | Functions, strings and lists | ✅ |
 | 5 | File handling, error handling and OOP | ⏳ |
 | 6 | Web development with Python | ⏳ |
 | 7 | Databases and APIs | ⏳ |
@@ -99,6 +109,10 @@ python smart_electricity_bill.py
 - Skipping invalid data with `continue`
 - Turning real-world business rules (discounts, tiered tariffs) into code
 - Formatting clean console output with f-strings
+- Writing reusable functions with parameters and `return`
+- Cleaning and validating text with `.strip()`, `.title()`, `.isdigit()` and `.isalpha()`
+- Asking again after invalid input with `while` loops and `try` / `except`
+- Storing data in lists and analysing it with `len()`, `sum()`, `max()`, `min()` and `sorted()`
 
 ---
 
